@@ -1,0 +1,12 @@
+RuntimeType: Container
+ServiceType: private
+ArtifactSourceType: DockerCompose
+ServiceBuildRegion: ap-southeast-1
+RepoName: onedot/dify
+DockerComposeEnvPath: docker/.env.example
+RegionId: cn-hangzhou
+CustomParameters: ''
+DockerComposeYamlPath: docker/docker-compose.yaml
+Owner: onedot
+Branch: main
+Platform: github
